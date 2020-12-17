@@ -4,13 +4,14 @@ import './styles.css';
 import TaskCreation from '../TaskCreation';
 import TaskTable from '../TaskTable';
 import PropTypes from 'prop-types';
+import { colors } from '../../constants';
 
 const TaskManager = ({ generalState }) => {
 
     return (
         <div>
             <h2>Task Manager</h2>
-            <h4>General Status: {generalState}</h4>
+            <div style={{ color: generalState !== "" ? colors[generalState] : "black", fontWeight: 500 }}>General Status: {generalState}</div>
             <TaskCreation />
             <TaskTable />
         </div>

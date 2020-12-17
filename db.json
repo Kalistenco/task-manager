@@ -1,19 +1,9 @@
 {
   "tasks": [
     {
-      "id": 1608173585219,
-      "description": "Quinta Tarea",
-      "state": "Suspend"
-    },
-    {
-      "id": 1608176378128,
-      "description": "Primera Tarea",
-      "state": "Suspend"
-    },
-    {
-      "id": 1608178022058,
-      "description": "Sexta Tarea",
-      "state": "Suspend"
+      "id": 1608180117730,
+      "description": "Nueva Tarea",
+      "state": "Finished"
     }
   ]
 }
