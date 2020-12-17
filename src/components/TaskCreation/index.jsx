@@ -21,6 +21,7 @@ const TaskCreation = ({ createTask }) => {
         };
 
         const body = {
+            //como json-server no genera id's al crear un objeto nuevo, le asigno al id la fecha actual
             "id": Date.now(),
             "description": value,
             "state": states.PENDING

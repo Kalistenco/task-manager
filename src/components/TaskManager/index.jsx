@@ -19,7 +19,7 @@ const TaskManager = ({ generalState }) => {
 };
 
 TaskManager.defaultProps = {
-    generalState: () => null
+    generalState: ""
 };
 
 

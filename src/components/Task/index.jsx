@@ -14,6 +14,8 @@ const Task = ({ task, editTask, deleteTask, isLoading }) => {
     const [newDescription, setNewDescription] = useState("");
     const [editError, setEditError] = useState(false);
 
+    //newDescription es el valor del input de texto que aparece al editar una tarea
+    //el valor inicial es la descripción anterior
     useEffect(() => {
         if (task) {
             setNewDescription(task.description);
