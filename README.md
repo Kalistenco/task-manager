@@ -2,7 +2,7 @@
 
 El proyecto corre con npm start.
 
-Paralelamente, hay que levantar la API de usando el comando json-server --watch json.db.
+Paralelamente, hay que levantar la API usando el comando json-server --watch json.db.
 
 La API está creada con la librería json-server (https://github.com/typicode/json-server).
 
