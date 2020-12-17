@@ -1,0 +1,6 @@
+export const FETCH_STARTED = "FETCH_STARTED";
+export const FETCH_FAILURE = "FETCH_FAILURE";
+export const GET_SUCCESS = "FETCH_SUCCESS";
+export const CREATE_SUCCESS = "CREATE_SUCCESS";
+export const EDIT_SUCCESS = "EDIT_SUCCESS";
+export const DELETE_SUCCESS = "DELETE_SUCCESS";

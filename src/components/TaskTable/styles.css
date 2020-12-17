@@ -1,0 +1,29 @@
+.taskTable {
+    display: flex;
+    flex-direction: column;
+}
+
+.taskTableHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    align-self: center;
+}
+
+.tableDivider {
+    border-style: solid;
+    border-bottom: 1px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-self: center;
+}
+
+#taskTableHeaderLeft {
+    width: 50%
+}
+
+#taskTableHeaderRight {
+    width: 50%
+}

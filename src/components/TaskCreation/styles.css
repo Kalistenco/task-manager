@@ -1,0 +1,13 @@
+.taskCreationContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.taskCreationItem {
+    margin: 1.5%;
+}
+
+#taskCreationinput {
+    width: 50%;
+}
